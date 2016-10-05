@@ -30,9 +30,12 @@ You should run this command for each tile you want to change.
 3. The ADB binary for Mac can also be downloaded using [this guide](http://forum.xda-developers.com/showthread.php?t=1917237)
 4. Linux people should install ADB from their package manager. I trust that if you're running linux you know what you're doing and don't want me mucking up your OS
 5. Mac and Linux should come with Python and you should not need to install it. To determine if you have python please open Terminal and type `python -V`. If you have Python this should return which python version you have. If you get anything else you don't have python.
+6. This program uses a few hacks and tricks. Right now these hacks/tricks are working but may change in the future.
 
 ### Tested on
 * Galaxy S7 Edge from T-Mobile in the condensed display mode using macOS.
+* Galaxy S7 Edge from T-Mobile in the standard display mode using macOS.
 * Galaxy S7 from T-Mobile in the condensed display mode using Windows 10.
+
 
 ### Beta Testers
