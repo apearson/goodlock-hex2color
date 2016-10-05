@@ -32,3 +32,4 @@ You should run this command for each tile you want to change.
 
 ### Tested on
 * Galaxy S7 Edge from T-Mobile in the condensed display mode.
+* Galaxy S7 from T-Mobile in the condesnsed display mode.
