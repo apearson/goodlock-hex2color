@@ -27,7 +27,7 @@ You should run this command for each tile you want to change.
 ## Footnotes
 1. The ADB installer for Windows comes from [this thread](http://forum.xda-developers.com/showthread.php?t=2317790)
 2. ADB for Mac is included in this repo and the python script will check to see if you have ADB already installed. If not it'll use the included ADB
-3. The ADB binary for Mac can also be downloaded using [this guide](http://forum.xda-developers.com/showthread.php?t=1917237)
+3. The ADB binary for Mac can also be downloaded using [this guide](http://forum.xda-developers.com/showthread.php?t=1917237) or, for [Homebrew](http://brew.sh/index.html) users, with `brew install android-platform-tools`
 4. Linux people should install ADB from their package manager. I trust that if you're running linux you know what you're doing and don't want me mucking up your OS
 5. Mac and Linux should come with Python and you should not need to install it. To determine if you have python please open Terminal and type `python -V`. If you have Python this should return which python version you have. If you get anything else you don't have python.
 
