@@ -20,8 +20,8 @@ Please view the footnotes before you get started.
 Your phone should be on Good Lock's custom color picker screen with the tile you want to change set as the selected tile.   
 You should run this command for each tile you want to change.
 
-`python hex2goodlock.py #253f3f`  
-`python hex2goodlock.py #253237`
+`python hex2goodlock.py '#253f3f'`  
+`python hex2goodlock.py '#253237'`
 
 
 ## Footnotes
