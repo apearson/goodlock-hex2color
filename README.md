@@ -3,6 +3,8 @@ This python program takes in a hex value and then uses Android's ADB interface t
 
 The first and only argument needed is the hex value of the color you want.
 
+Please view the footnotes before you get started.
+
 ## Requirements
 
 ### Windows  
@@ -12,13 +14,21 @@ The first and only argument needed is the hex value of the color you want.
 
 ### Mac/Linux
 1. Android's ADB [[Mac]](mac-tools/adb)
-2. Python 3
+2. [Python 3](https://www.python.org/)
 
 ## Examples
+Your phone should be on Good Lock's custom color picker screen with the tile you want to change set as the selected tile.   
+You should run this command for each tile you want to change.
+
 `python hex2goodlock.py #253f3f`  
 `python hex2goodlock.py #253237`
+
 
 ## Footnotes
 1. The Android ADB install for Windows comes from [this thread](http://forum.xda-developers.com/showthread.php?t=2317790)
 2. The Android ADB binary for Mac can also be downloaded using [this guide](http://forum.xda-developers.com/showthread.php?t=1917237)
 3. Linux people should install ADB from their package manager. I trust that if you're running linux you know what you're doing and don't want me mucking up your OS
+4. Mac and Linux should come with Python and you should not need to install it. To determine if you have python please open Terminal and type `python -V`. If you have Python this should return which python version you have. If you get anything else you don't have python.
+
+### Tested on
+* Galaxy S7 Edge from T-Mobile in the condensed display mode.
