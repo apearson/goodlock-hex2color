@@ -39,3 +39,7 @@ You should run this command for each tile you want to change.
 
 
 ### Beta Testers
+* [blindingstars](https://github.com/blindingstars)
+
+### Contributors 
+* [blindingstars](https://github.com/blindingstars)
