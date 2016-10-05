@@ -1,1 +1,23 @@
-# goodlock-color-picker
+# Samsung's Good Lock Hex to Color
+This python program takes in a hex value and then uses Android's ADB interface to pick the correct color from Samsung's Good Lock color picker.
+
+The first and only argument needed is the hex value of the color you want.
+
+## Requirements
+
+### Windows  
+1. [Samsung's Universal USB Driver for Mobile Phones](http://downloadcenter.samsung.com/content/DR/201602/20160219075034805/SAMSUNG_USB_Driver_for_Mobile_Phones_v1.5.45.00.exe)  
+2. [Android's ADB](https://www.androidfilehost.com/?fid=24521665358595410)
+3. [Python 3](https://www.python.org/)
+
+### Mac/Linux
+1. Android's ADB
+
+## Examples
+`python hex2goodlock.py #253f3f`  
+`python hex2goodlock.py #253237`
+
+## Footnotes
+1. The Android ADB install for Windows comes from [this thread](http://forum.xda-developers.com/showthread.php?t=2317790)
+2. The Android ADB binary for Mac can also be downloaded using [this guide](http://forum.xda-developers.com/showthread.php?t=1917237)
+3. Linux people should install ADB from their package manager. Sorry I trust that if you're running linux you know what you're doing and don't want me mucking up your OS
