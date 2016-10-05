@@ -28,7 +28,7 @@ You should run this command for each tile you want to change, replacing the hexa
 ### Recording
 
 <p align="center">
-<img src="https://github.com/blindingstars/goodlock-hex2color/raw/master/images/recording.gif" />
+<img src="https://github.com/andrewpe/goodlock-hex2color/raw/master/images/recording.gif" />
 </p>
 
 The following colors were used:
