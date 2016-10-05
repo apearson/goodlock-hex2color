@@ -53,6 +53,7 @@ python hex2goodlock.py "#7fe3c0"
 * Galaxy S7 Edge from T-Mobile in the standard display mode using macOS.
 * Galaxy S7 from T-Mobile in the condensed display mode using Windows 10.
 * Galaxy S7 from AT&T in the standard display mode using Windows 10.
+* Galaxy S7 from AT&T in the standard display mode using OSX El Capitan.
 
 ### Beta Testers
 * [blindingstars](https://github.com/blindingstars)
