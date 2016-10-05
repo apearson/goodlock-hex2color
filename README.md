@@ -12,6 +12,7 @@ The first and only argument needed is the hex value of the color you want.
 
 ### Mac/Linux
 1. Android's ADB
+2. Python 3
 
 ## Examples
 `python hex2goodlock.py #253f3f`  
@@ -20,4 +21,4 @@ The first and only argument needed is the hex value of the color you want.
 ## Footnotes
 1. The Android ADB install for Windows comes from [this thread](http://forum.xda-developers.com/showthread.php?t=2317790)
 2. The Android ADB binary for Mac can also be downloaded using [this guide](http://forum.xda-developers.com/showthread.php?t=1917237)
-3. Linux people should install ADB from their package manager. Sorry I trust that if you're running linux you know what you're doing and don't want me mucking up your OS
+3. Linux people should install ADB from their package manager. I trust that if you're running linux you know what you're doing and don't want me mucking up your OS
