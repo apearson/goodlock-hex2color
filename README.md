@@ -13,7 +13,7 @@ Please view the footnotes before you get started.
 3. [Python 3](https://www.python.org/)
 
 ### Mac/Linux
-1. ADB
+1. ADB (footnote #2)
 2. [Python 3](https://www.python.org/)
 
 ## Examples
