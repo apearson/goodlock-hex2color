@@ -11,7 +11,7 @@ The first and only argument needed is the hex value of the color you want.
 3. [Python 3](https://www.python.org/)
 
 ### Mac/Linux
-1. Android's ADB
+1. Android's ADB [[Mac]](mac-tools/adb)
 2. Python 3
 
 ## Examples
