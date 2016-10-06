@@ -24,6 +24,9 @@ rgb = (int(inputHex[1:3],16), int(inputHex[3:5], 16), int(inputHex[5:7], 16))
 # Converting to correct color space
 hsv = colorsys.rgb_to_hsv(rgb[0]/255, rgb[1]/255, rgb[2]/255)
 
+print("HSV")
+print(hsv)
+
 # Figuring out if in standard display mode or condensed
 displayMode = len(os.popen("adb shell wm density").readlines());
 
@@ -32,8 +35,8 @@ if displayMode == 1:
     print('Display Mode: Standard')
     HueAreaStart = (852, 871)  # X, Y
     HueAreaSize = (19 ,534) # Width, Height
-    SVAreaStart = (182,871) # X, Y
-    SVAreaSize = (655,534) # Width, Height
+    SVAreaStart = (182,872) # X, Y
+    SVAreaSize = (655,533) # Width, Height
 else:
     print('Display Mode: Condensed')
     HueAreaStart = (826, 924)  # X, Y
