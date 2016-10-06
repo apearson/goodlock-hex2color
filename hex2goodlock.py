@@ -35,8 +35,8 @@ if displayMode == 1:
     print('Display Mode: Standard')
     HueAreaStart = (852, 871)  # X, Y
     HueAreaSize = (19 ,534) # Width, Height
-    SVAreaStart = (182,872) # X, Y
-    SVAreaSize = (655,533) # Width, Height
+    SVAreaStart = (182,871) # X, Y
+    SVAreaSize = (655,534) # Width, Height
 else:
     print('Display Mode: Condensed')
     HueAreaStart = (826, 924)  # X, Y
