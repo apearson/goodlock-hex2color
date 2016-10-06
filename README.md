@@ -17,12 +17,28 @@ Please view the footnotes before you get started.
 2. [Python 3](https://www.python.org/)
 
 ## Examples
-Your phone should be connected to your computer with a USB cable and USB Debugging should be turned on. Good Lock should be open and opened up to the custom color picker screen with the tile you want to change set as the selected tile.   
-You should run this command for each tile you want to change.
+Your phone should be connected to your computer with a USB cable and USB Debugging should be turned on. Good Lock should be open and opened up to the **custom color picker screen** with the tile you want to change set as the selected tile.
 
-`python hex2goodlock.py "#253f3f"`  
-`python hex2goodlock.py "#253237"`
+If you do not have a button at the bottom of the color picker screen that says "Custom", update Good Lock.
 
+You should run this command for each tile you want to change, replacing the hexadecimal color code as needed:
+
+`python hex2goodlock.py "#253f3f"`
+
+### Recording
+
+<p align="center">
+<img src="https://github.com/andrewpe/goodlock-hex2color/raw/master/images/recording.gif" />
+</p>
+
+The following colors were used:
+
+```
+python hex2goodlock.py "#070707"
+python hex2goodlock.py "#1e3433"
+python hex2goodlock.py "#44423d"
+python hex2goodlock.py "#7fe3c0"
+```
 
 ## Footnotes
 1. The ADB installer for Windows comes from [this thread](http://forum.xda-developers.com/showthread.php?t=2317790)
@@ -36,7 +52,8 @@ You should run this command for each tile you want to change.
 * Galaxy S7 Edge from T-Mobile in the condensed display mode using macOS.
 * Galaxy S7 Edge from T-Mobile in the standard display mode using macOS.
 * Galaxy S7 from T-Mobile in the condensed display mode using Windows 10.
-
+* Galaxy S7 from AT&T in the standard display mode using Windows 10.
+* Galaxy S7 from AT&T in the standard display mode using OSX El Capitan.
 
 ### Beta Testers
 * [blindingstars](https://github.com/blindingstars)
