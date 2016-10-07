@@ -29,7 +29,7 @@ You should run this command for each tile you want to change, replacing the hexa
 or   
 `python hex2goodlock.py`
 
-### Recording
+### Example
 
 <p align="center">
 <img src="/images/how-to.gif" />
