@@ -34,6 +34,8 @@ or
 <p align="center">
 <img src="/images/how-to.gif" />
 </p>
+[Full Youtube Video](https://www.youtube.com/watch?v=pSsmssP1OXU)
+
 
 ## Footnotes
 1. The ADB installer for Windows comes from [this thread](http://forum.xda-developers.com/showthread.php?t=2317790)
