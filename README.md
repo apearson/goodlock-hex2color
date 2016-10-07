@@ -35,15 +35,6 @@ or
 <img src="/images/how-to.gif" />
 </p>
 
-The following colors were used:
-
-```
-python hex2goodlock.py "#070707"
-python hex2goodlock.py "#1e3433"
-python hex2goodlock.py "#44423d"
-python hex2goodlock.py "#7fe3c0"
-```
-
 ## Footnotes
 1. The ADB installer for Windows comes from [this thread](http://forum.xda-developers.com/showthread.php?t=2317790)
 2. The ADB binary for Mac can be downloaded using [this guide](http://forum.xda-developers.com/showthread.php?t=1917237) or, for [Homebrew](http://brew.sh/index.html) users, with `brew install android-platform-tools`
