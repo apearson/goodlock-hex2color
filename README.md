@@ -1,7 +1,7 @@
 # Samsung's Good Lock Hex to Color
 This python program takes in a hex value and then uses Android's ADB interface to pick the correct color from Samsung's Good Lock color picker.
 
-This tool run on the command line only.  Knowledge of basic command line usage is need to use this tool. 
+This tool run on the command line only.  Knowledge of basic command line usage is need to use this tool.
 
 The first and only argument needed is the hex value of the color you want.
 
@@ -25,12 +25,14 @@ If you do not have a button at the bottom of the color picker screen that says "
 
 You should run this command for each tile you want to change, replacing the hexadecimal color code as needed:
 
-`python hex2goodlock.py "#253f3f"`
+`python hex2goodlock.py "#253f3f"`  
+or   
+`python hex2goodlock.py`
 
 ### Recording
 
 <p align="center">
-<img src="/images/recording.gif" />
+<img src="/images/how-to.gif" />
 </p>
 
 The following colors were used:

@@ -3,12 +3,11 @@ import os
 import re
 import sys
 
-# Checking if argument exists
-if len(sys.argv) < 2:
-    sys.exit("Hex value not given!")
-
 # Getting color from command line
-inputHex = sys.argv[1]
+if len(sys.argv) < 2:
+    inputHex = input('Enter your hex color: ')
+else:
+    inputHex = sys.argv[1]
 
 # Check argument format
 if not re.match("^#[a-fA-F0-9]{6}$", inputHex):
