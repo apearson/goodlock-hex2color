@@ -18,7 +18,7 @@ Please view the footnotes before you get started.
 1. ADB (footnote #2)
 2. [Python 3](https://www.python.org/)
 
-## Examples
+## How to
 Your phone should be connected to your computer with a USB cable and USB Debugging should be turned on. Good Lock should be open and opened up to the **custom color picker screen** with the tile you want to change set as the selected tile.
 
 If you do not have a button at the bottom of the color picker screen that says "Custom", update Good Lock.
