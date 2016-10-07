@@ -1,11 +1,15 @@
-import os
-import sys
 import colorsys
+import os
 import re
+import sys
 
 # Getting color from command line
-inputHex = sys.argv[1]
+if len(sys.argv) < 2:
+    inputHex = input('Enter your hex color: ')
+else:
+    inputHex = sys.argv[1]
 
+# Check argument format
 if not re.match("^#[a-fA-F0-9]{6}$", inputHex):
     sys.exit("Input not a hex value in format #XXXXXX!")
 
