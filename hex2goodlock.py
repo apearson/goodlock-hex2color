@@ -2,18 +2,6 @@ import os
 import sys
 import colorsys
 
-# Decided to use built in adb binary or now
-useSystemADB = True
-if sys.platform == "darwin":
-    hasADB = os.popen("which adb").readline().strip()
-    if not hasADB:
-        useSystemADB = False
-
-# Setting start of command
-commandStart = "adb "
-if not useSystemADB:
-    commandStart = "./mac-tools/adb "
-
 # Getting color from command line
 inputHex = sys.argv[1]
 
@@ -66,7 +54,7 @@ print("Saturation Screen Location: %spx" % saturationLocation)
 print("Value Screen Location: %spx" % valueLocation)
 
 print("Creating command for device")
-command = commandStart + "shell input tap %s %s && adb shell input tap %s %s" % (hueLocationMiddle, hueLocation, saturationLocation, valueLocation)
+command = "adb shell input tap %s %s && adb shell input tap %s %s" % (hueLocationMiddle, hueLocation, saturationLocation, valueLocation)
 
 print(command)
 
