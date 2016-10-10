@@ -35,7 +35,13 @@ if "Override density: 560" in densityOutput:
     HueAreaSize = (69 ,466) # Width, Height
     SVAreaStart = (249,924) # X, Y
     SVAreaSize = (562,466) # Width, Height
-elif "Physical density: 640" in densityOutput:
+elif "Override density: 480" in densityOutput:
+    print("Diplay Mode: Custom 480")
+    HueAreaStart = (801, 973)  # X, Y
+    HueAreaSize = (69 ,400) # Width, Height
+    SVAreaStart = (316,973) # X, Y
+    SVAreaSize = (470,400) # Width, Height
+elif "Physical density: 640" in densityOutput and "Override density:" not in densityOutput:
     print("Display Mode: Standard")
     HueAreaStart = (852, 871)  # X, Y
     HueAreaSize = (19 ,534) # Width, Height
