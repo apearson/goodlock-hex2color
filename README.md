@@ -52,6 +52,7 @@ or
 * Galaxy S7 from AT&T in the standard display mode using Windows 10.
 * Galaxy S7 from AT&T in the standard display mode using OSX El Capitan.
 * Galaxy S7 Edge from Verizon in the condensed display mode using Windows 10.
+* Galaxy S7 Edge from T-Mobile 480 DPI using macOS.
 
 ### Beta Testers
 * [blindingstars](https://github.com/blindingstars)
